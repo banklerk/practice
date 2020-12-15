@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>«Путешествуй просто»</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <link rel="stylesheet" href="css/outline.css"> -->
+</head>
+
+<body>
+ <section id="home" class="home-page">
+   <header class="main-header">
+     <div class="container">
+       <div class="row">
+         <img src="img/main-logo.jpg" alt="logo" class="sitenav-logo">
+         <nav class="sitenav-wrapper">
+           <ul class="header-list">
+             <li><a href="#home" class="header-item-link">Главная</a></li>
+             <li><a href="#slider" class="header-item-link">Особенности</a></li>
+             <li><a href="#catalog" class="header-item-link">Витрина туров</a></li>
+             <li><a href="#features" class="header-item-link">Преимущества компании</a></li>
+             <li><a href="#contacts" class="header-item-link">Контакты</a></li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+   </header>
+</section>   
+ <section id="slider" class="benefits">
+   <div class="container">
+     <input type="radio" class="visually-hidden" id="product-1" name="toggle" checked>
+     <input type="radio" class="visually-hidden" id="product-2" name="toggle">
+     <input type="radio" class="visually-hidden" id="product-3" name="toggle">
+     <div class="slider-controls">
+       <label class="slider-controls-item" for="product-1"></label>
+       <label class="slider-controls-item" for="product-2"></label>
+       <label class="slider-controls-item" for="product-3"></label>
+     </div>
+     <ul class="slider">
+       <li class="slider-item">
+         <h3>Lorem ipsum dolor sit amet.</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, impedit.</p>
+         <a href="#" class="slider-item-btn btn">Узнать подбробно</a>
+       </li>
+       <li class="slider-item">
+         <h3>Lorem ipsum dolor sit amet.</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, culpa.</p>
+         <a href="#" class="slider-item-btn btn">Узнать подбробно</a>
+       </li>
+       <li class="slider-item">
+         <h3>Lorem ipsum dolor sit amet.</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, assumenda?</p>
+         <a href="#" class="slider-item-btn btn">Узнать подбробно</a>
+       </li>
+     </ul>
+   </div>
+ </section>
+ <section id="catalog" class="catalog">
+   <div class="container">
+     <h2 class="catalog-caption">Витрина туров</h2>
+     <hr class="catalog-separator">
+     <ul class="filter-list">
+       <li class="filter-item">
+         <span class="filter-item-btn filter" data-filter="all">ВСЕ</span>
+       </li>
+       <li class="filter-item">
+         <span class="filter-item-btn filter" data-filter=".vnam">ВЬЕТНАМ</span>
+       </li>
+       <li class="filter-item">
+         <span class="filter-item-btn filter" data-filter=".indu">ИНДОНЕЗИЯ</span>
+       </li>
+       <li class="filter-item">
+         <span class="filter-item-btn filter" data-filter=".chi">КИТАЙ</span>
+       </li>
+       <li class="filter-item">
+         <span class="filter-item-btn filter" data-filter=".rus">РОССИЯ</span>
+       </li>
+     </ul>
+     <div class="row">
+       <div class="catalog-items" id="showcase">
+         <div class="catalog-items-wrapper">
+           <article class="catalog-item mix vnam">
+             <div class="action">
+               <a href="" class="order">Купить тур</a>
+             </div>
+             <img src="img/main-logo.jpg" width="218" height="168" alt="" class="image">
+             <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+             <p class="price">10 000 Р</p>
+           </article>
+           <article class="catalog-item mix vnam">
+             <div class="action">
+               <a href="" class="order">Купить тур</a>
+             </div>
+             <img src="img/main-logo.jpg" width="218" height="168" alt="" class="image">
+             <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+             <p class="price">10 000 Р</p>
+           </article>
+           <article class="catalog-item mix indu">
+             <div class="action">
+               <a href="" class="order">Купить тур</a>
+             </div>
+             <img src="img/main-logo.jpg" width="218" height="168" alt="" class="image">
+             <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+             <p class="price">10 000 Р</p>
+           </article>
+           <article class="catalog-item mix indu">
+             <div class="action">
+               <a href="" class="order">Купить тур</a>
+             </div>
+             <img src="img/main-logo.jpg" width="218" height="168" alt="" class="image">
+             <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+             <p class="price">10 000 Р</p>
+           </article>
+           <article class="catalog-item mix rus">
+             <div class="action">
+               <a href="" class="order">Купить тур</a>
+             </div>
+             <img src="img/main-logo.jpg" width="218" height="168" alt="" class="image">
+             <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+             <p class="price">10 000 Р</p>
+           </article>
+           <article class="catalog-item mix chi">
+             <div class="action">
+               <a href="" class="order">Купить тур</a>
+             </div>
+             <img src="img/main-logo.jpg" width="218" height="168" alt="" class="image">
+             <h3 class="title">Lorem ipsum dolor sit amet.</h3>
+             <p class="price">10 000 Р</p>
+           </article>
+         </div>
+         <div class="control-pagination">
+           <div class="mixitup-page-list"></div>
+           <div class="mixitup-page-stats"></div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <section id="features" class="features-company">
+   
+ </section>
+ <footer id="contacts" class="main-footer">
+   
+ </footer>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
