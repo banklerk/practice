@@ -384,7 +384,7 @@ a {
   background-color: #eeeeee;
   height: 150px;
 }
-.main-header .row {
+.main-header .container {
   position: relative;
 }
 .sitenav-wrapper {
@@ -393,10 +393,11 @@ a {
   text-transform: uppercase;
 }
 .sitenav-logo {
+  object-fit: contain;
   position: absolute;
   top: 0;
   left: 0;
-  width: 80px;
+  width: 150px;
   height: 80px;
 }
 .header-list {
